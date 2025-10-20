@@ -1,2 +1,0 @@
-[ 2025-10-02 19:42:35,893 ] 24 networksecurity.logging.logger - INFO - Enter the try block
-[ 2025-10-02 19:42:35,893 ] 29 networksecurity.logging.logger - ERROR - Error occurred in python script name [C:\Users\ashut\Desktop\Web Development\Network_security\networksecurity\exception\exception.py] line number [25] error message [division by zero]

@@ -4,6 +4,11 @@ import json
 import pandas as pd
 import numpy as np
 
+# Add project root to Python path for imports
+project_root = os.path.dirname(os.path.abspath(__file__))
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
+
 import pymongo
 from networksecurity.exception.exception import NetworkSecurityException
 from networksecurity.logging.logger import logging
